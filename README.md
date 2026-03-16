@@ -35,7 +35,7 @@ Custom ESP32 display board used in this project.
 
 | Front | Back |
 |:-----:|:----:|
-| ![Front](images/hardware_front.jpg) | ![Back](images/hardware_back.jpg) |
+| ![Front](img/hardware_front.png) | ![Back](img/hardware_back.png) |
 
 ---
 
@@ -43,9 +43,9 @@ Custom ESP32 display board used in this project.
 
 The device UI is built with **LVGL** and fully controlled via touchscreen — no external tools or serial monitor required.
 
-| Home Screen | Settings | Scan WiFi | WiFi List |
+| Home Screen | Settings | WiFi List | Enter Password |
 |:-----------:|:--------:|:---------:|:---------:|
-| ![Home](images/ui_home_qr.jpg) | ![Settings](images/ui_settings.jpg) | ![Scan](images/ui_scanwifi.jpg) | ![List](images/ui_wifilist.jpg) |
+| ![Home](img/home_scr.jpg) | ![Settings](img/setting_scr.jpg) | ![Scan](img/wifi_list.jpg) | ![List](img/wifi_pass.jpg) |
 
 **UI Highlights:**
 - Home screen displays the live-generated **QR code**
@@ -61,7 +61,7 @@ Once connected to a network, the ESP32 serves a responsive web UI accessible fro
 
 | Light Mode | Dark Mode |
 |:----------:|:---------:|
-| ![Light](images/web_light.jpg) | ![Dark](images/web_dark.jpg) |
+| ![Light](img/light_mode.png) | ![Dark](img/dark_mode.png) |
 
 ---
 
@@ -71,10 +71,10 @@ Example interaction — from browser to device display.
 
 | Web UI Demo |
 |:-----------:|
-| ![Demo](images/web_demo.jpg) |
+| ![Demo](img/webrun.png) |
 
 **Workflow:**
-1. Open `http://esp32.local` in any browser
+1. Open `http://esp32.local` or IP adrress scan with QR, in any browser
 2. Type a URL or any text
 3. Hit Send → ESP32 generates the QR code
 4. QR code appears instantly on the touchscreen
@@ -147,10 +147,10 @@ Browser / Mobile Device
 
 | Page | Status |
 |------|--------|
-| Getting Started | 🔜 Coming soon |
+| [Getting Started](https://www.elecrow.com/wiki/ESP32_Miner_LCD-2.8_inch_PlatformIO.html#overview) | ✅ Available  |
+| [LVGL UI Customization](https://www.elecrow.com/wiki/ESP32_Miner_LCD-2.8_inch_PlatformIO.html#design-ui-file-with-squareline-studio) | ✅ Available |
 | Hardware Setup & Wiring | 🔜 Coming soon |
 | Flashing & First Boot | 🔜 Coming soon |
-| LVGL UI Customization | 🔜 Coming soon |
 | Web Interface Guide | 🔜 Coming soon |
 | LittleFS File Upload | 🔜 Coming soon |
 | API Reference | 🔜 Coming soon |
@@ -159,31 +159,6 @@ Browser / Mobile Device
 If you'd like to contribute to the documentation, feel free to open an issue or PR.
 
 ---
-
-## 💡 Use Cases
-
-- QR code display kiosk or desktop gadget
-- Embedded UI reference project (LVGL + ESP32)
-- ESP32 web server demonstration
-- IoT device with browser-based control
-- Starting template for touchscreen ESP32 projects
-
----
-
-## 🎯 Project Goal
-
-This project demonstrates how to build a **complete embedded device** that integrates:
-
-- Custom hardware
-- Firmware architecture
-- Graphical touchscreen UI
-- Local networking & mDNS
-- Browser-based interaction
-
-It is designed as a **practical learning reference** for embedded developers exploring LVGL and ESP32 UI development.
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
