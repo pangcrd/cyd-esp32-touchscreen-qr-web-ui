@@ -135,7 +135,7 @@ Browser / Mobile Device
 | Firmware | ESP32 (Arduino / ESP-IDF) |
 | UI Framework | LVGL |
 | File System | LittleFS / SPIFFS |
-| Web Server | ESPAsyncWebServer |
+| Web Server | WebServer : ESPmDNS |
 | QR Generation | On-device QR library |
 | Network Discovery | mDNS (`esp32.local`) |
 
