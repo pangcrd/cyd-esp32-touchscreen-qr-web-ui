@@ -61,7 +61,7 @@ Once connected to a network, the ESP32 serves a responsive web UI accessible fro
 
 | Light Mode | Dark Mode |
 |:----------:|:---------:|
-| ![Light](img/light_mode.png) | ![Dark](img/dark_mode.png) |
+| ![Light](img/light_mode.PNG) | ![Dark](img/dark_mode.PNG) |
 
 ---
 
@@ -71,7 +71,7 @@ Example interaction — from browser to device display.
 
 | Web UI Demo |
 |:-----------:|
-| ![Demo](img/webrun.png) |
+| ![Demo](img/webrun.PNG) |
 
 **Workflow:**
 1. Open `http://esp32.local` or IP adrress scan with QR, in any browser
