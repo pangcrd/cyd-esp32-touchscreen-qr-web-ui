@@ -20,7 +20,7 @@ Send any URL or text from your browser → instantly display a QR code on the de
 
 This project demonstrates how to integrate **embedded UI, networking, and web interaction** into a complete embedded system built on the **ESP32** platform.
 
-- Users configure WiFi directly from the touchscreen
+- Users configure WiFi directly from the touchscreen 
 - The device hosts its own **web server** accessible at `esp32.local`
 - Any browser can send text or URLs to the device
 - The ESP32 immediately generates and renders a **QR code** via LVGL
@@ -86,11 +86,11 @@ Example interaction — from browser to device display.
 | Feature | Description |
 |---------|-------------|
 | 🖥️ Touchscreen UI | Full LVGL interface with brightness control and WiFi setup |
-| 📡 WiFi Config | Scan and connect to networks directly from the device |
+| 📡 WiFi Config | Scan and connect to networks directly from the device, save wifi ssid pass into NVS |
 | 🌐 Embedded Web Server | Async HTTP server hosted entirely on the ESP32 |
 | 📲 QR Code Generation | Dynamic QR from any URL or text, rendered via LVGL |
 | 🔗 mDNS Access | Reach the device at `esp32.local` on your local network |
-| 💾 File Storage | Web assets stored in LittleFS / SPIFFS on-device |
+| 💾 File Storage | Web assets stored in LittleFS |
 | 🌙 Dark / Light Mode | Web UI supports both themes |
 | 🔄 Auto QR on Connect | Displays device web address QR after WiFi connection |
 | 🧱 Modular Firmware | Clean, structured codebase for easy extension |
